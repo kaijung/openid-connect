@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaijung/oauth2-server-php.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaijung/oauth2-server-httpfoundation-bridge.git"
+        }      
+    ],
+    "require": {
+        "silex/silex": "1.2.*@dev",
+        "bshaffer/oauth2-server-php" : "dev-develop",
+        "bshaffer/oauth2-server-httpfoundation-bridge" : "dev-develop"
+    },
+    "autoload" : {
+        "psr-0": {
+            "OpenID": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
